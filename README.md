@@ -31,8 +31,4 @@ Tampilan dibuat dengan **tema gelap modern (dark glass UI)** dan efek **animasi 
 | **HTML5** | Struktur halaman portofolio |
 | **CSS3** | Desain visual dan animasi |
 | **JavaScript** | Efek interaktif seperti scroll animation |
-| **FormSubmit** | Pengiriman pesan ke email tanpa server |
-
----
-
-## 📂 Struktur Proyek
+| **FormSubmit** | Pengiriman pesan ke email tanpa server 
