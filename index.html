@@ -68,12 +68,12 @@
     .text-slider span:nth-child(2){animation-delay:3s}
     /* Warna teks berbeda untuk tiap kata */
 .text-slider span:nth-child(1){
-  color: #3ec5ff; 
+  color: #3ec5ff; /* merah muda lembut */
   animation-delay: 0s;
 }
 
 .text-slider span:nth-child(2){
-  color: #3ec5ff;
+  color: #3ec5ff; /* biru cerah */
   animation-delay: 3s;
 }
 
@@ -198,8 +198,9 @@
       <form action="https://formsubmit.co/reyganasrullah5@gmail.com" method="POST">
         <input type="text" name="nama" placeholder="Nama" required>
         <input type="email" name="email" placeholder="Email" required>
-        <textarea name="pesan" rows="4" placeholder="Saran dan Masukan untuk saya" required></textarea>
-        <button type="submit">Makasih Buat Yang Udah Ngisi</button>
+        <textarea name="pesan" rows="4" placeholder="Pesan untuk saya" required></textarea>
+        <input type="hidden" name="_next" value="https://newbiedev1410.github.io/Reyga/">
+        <button type="submit">Kirim</button>
       </form>
     </section>
 
@@ -218,4 +219,4 @@
     document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
   </script>
 </body>
-        </html>
+                     </html>
